@@ -2,17 +2,13 @@ body,html,header,SMheader,CMheader,basis{
 	margin:0;
 	padding:0;
 }
-::-webkit-scrollbar { /* chrome based */
-    width: 0px;  /* ширина scrollbar'a */
-    background: transparent;  /* опционально */
-}
-html {
-    -ms-overflow-style: none;  /* IE 10+ */
-    scrollbar-width: none; /* Firefox */
-}
 body {
 	background-color: #fbeee6;
 }
+   html { overflow-x: hidden; }
+   div { 
+    min-width:  800px; /* Минимальная  ширина */
+   }
 /*логотип*/
 .header {
 	background-color: rgba(251, 238, 230, 1);
@@ -191,70 +187,84 @@ ul.menu li a:hover:after, a:focus:after {
 	position:absolute;
 	top:60px;
 	left:110px;
+	width: 9000px;
 }
 #img2{
 	position:absolute;
 	top:686px;
 	left:512px;
+	width: 9000px;
 }
 #img3{
 	position:absolute;
 	top:1312px;
 	left:205px;
+	width: 9000px;
 }
 #img4{
 	position:absolute;
 	top:2340px;
 	left:512px;
+	width: 9000px;
 }
 #img5{
 	position:absolute;
 	top:2966px;
 	left:110px;
+	width: 9000px;
 }
 #img6{
 	position:absolute;
 	top:3592px;
 	left:500px;
+	width: 9000px;
 }
 #img7{
 	position:absolute;
 	top:4620px;
 	left:110px;
+	width: 9000px;
 }
 #img8{
 	position:absolute;
 	top:5246px;
 	left:430px;
+	width: 9000px;
 }
 #img9{
 	position:absolute;
 	top:5872px;
 	left:180px;
+	width: 9000px;
 }
 #img10{
 	position:absolute;
 	top:6498px;
 	left:825px;
+	width: 9000px;
 }
 #img11{
 	position:absolute;
 	top:7526px;
 	left:110px;
+	width: 9000px;
 }
 #img12{
 	position:absolute;
 	top:8152px;
 	left:500px;
+	width: 9000px;
 }
 #img13{
 	position:absolute;
 	top:8778px;
 	left:110px;
+	width: 9000px;
 }
 #img14{
 	position:absolute;
 	top:9404px;
 	left:430px;
+	width: 9000px;
 }
 /**********************/
