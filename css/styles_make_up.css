@@ -149,10 +149,11 @@ ul.menu li a:hover:after, a:focus:after {
 .text_top{
 	font-size:30px;
 	color: #3d3d3d;
-	font-family: TYPOGRAPH PRO;
+	font-family:Bebas Neue;
 	margin-bottom:10px;
 	margin-top:10px;
 	overflow:hidden;
+	text-transform:uppercase;
 }
 .text_top span{
 	display:inline-block;
@@ -161,9 +162,9 @@ ul.menu li a:hover:after, a:focus:after {
 .text_top:after {
     content: "";
 	display: inline-block;
-    vertical-align: middle;
+    vertical-align:middle;
 	width: 100%;
-    height: 4px;
+    height: 1px;
 	background-color: #3d3d3d;
     position: relative;
 	
@@ -176,14 +177,14 @@ ul.menu li a:hover:after, a:focus:after {
 #text_big_bottom{
 	font-size:20px;
 	color: #3d3d3d;
-	font-family: TYPOGRAPH PRO;
+	font-family:Bebas Neue;
 	margin-bottom:10px;
-
+	text-transform:uppercase;
 }
 #text_littel_bottom{
 	font-size:18px;
 	color: #3d3d3d;
-	font-family: TYPOGRAPH PRO;
+	font-family:Times New Roman;
 	margin-top:-10px;
 }
 #img1{
@@ -256,3 +257,4 @@ ul.menu li a:hover:after, a:focus:after {
 	top:9404px;
 	left:430px;
 }
+/**********************/
